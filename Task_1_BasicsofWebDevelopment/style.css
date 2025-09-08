@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #6b3bda;
+  padding: 20px;
+  color: white;
+}
+
+.hero h1 span {
+  color: #f3f02e;
+}
+
+.hero button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #eb081f;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #0056b3;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+section button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+section button:hover {
+  background-color: #0056b3;
+}
+
+/* Projects Section */
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Contact Section */
+.contact-box {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: left;
+  max-width: 400px;
+}
+
+.contact-box p {
+  margin: 8px 0;
+}
+
+.contact-box a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
